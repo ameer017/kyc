@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KYC Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>KYC Form</h1>
+        </header>
+        <form>
+            <p class="Identity">
+                A. Identity Details
+            </p>
+
+            <div>
+                <p>
+                    1. Name of the Applicant
+                </p>
+
+                <div class="form-group">
+                    <div>
+                        <input type="text" placeholder="John" required>
+                        <label for="">First Name</label>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Doe" required>
+                        <label for="">Last Name</label>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <p>
+                    2 .Father&apos;s/Spouse&apos;s Name
+                </p>
+
+                <div class="form-group">
+                    <div>
+                        <input type="text" placeholder="John" required>
+                        <label for="">First Name</label>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Doe" required>
+                        <label for="">Last Name</label>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <p>
+                    3. Date of Birth And Nationality
+                </p>
+
+                <div class="form-group">
+                    <div>
+                        <input type="date">
+                        <label for="">Date of Birth</label>
+                    </div>
+                    <div>
+                        <select name="" id="">
+                            <option value="&nbsp;">--select--</option>
+                            <option value="ghanian">Ghanian</option>
+                            <option value="kenyan">Kenyan</option>
+                            <option value="nigerian">Nigerian</option>
+                        </select>
+                        <label for="">Nationality</label>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+
+                <div class="form-group">
+                    <div>
+                        <p>
+                            4. Status.
+                        </p>
+                        <div>
+                            <label for="status-resident" class="--flex">
+                                <input type="radio" name="status" id="status-resident" required>
+                                Resident Individual
+                            </label>
+                            <label for="status-nonresident" class="--flex">
+                                <input type="radio" name="status" id="status-nonresident" required>
+                                Non Resident
+                            </label>
+                            <label for="status-foreign" class="--flex">
+                                <input type="radio" name="status" id="status-foreign" required>
+                                Foreign National
+                            </label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p>
+                            5. Proof of Identiy.
+                        </p>
+                        <div>
+                            <label for="identity-passport" class="--flex">
+                                <input type="radio" name="identity" id="identity-passport" required>
+                                Passport
+                            </label>
+                            <label for="identity-voterid" class="--flex">
+                                <input type="radio" name="identity" id="identity-voterid" required>
+                                Voter ID
+                            </label>
+                            <label for="identity-license" class="--flex">
+                                <input type="radio" name="identity" id="identity-license" required>
+                                Driving License
+                            </label>
+                            <label for="identity-other" class="--flex">
+                                <input type="radio" name="identity" id="identity-other" required>
+                                Other.
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <p class="Identity">
+                B. Address Details
+            </p>
+
+            <div>
+                <p>
+                    1. Address for Correspondence
+                </p>
+
+                <div class="form-group">
+                    <div>
+                        <input type="text" placeholder="No 2 Ibadan street, Ebute Meta Lagos" required>
+                        <label for="">Street Address</label>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="No 4 Ekiti street, Ebute Meta Lagos" required>
+                        <label for="">Street Address Line 2</label>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="form-group">
+                    <div>
+                        <input type="text" placeholder="Lagos" required>
+                        <label for="">City</label>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="lagos" required>
+                        <label for="">State/Province</label>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="form-group">
+                    <div>
+                        <input type="text" placeholder="234001" required>
+                        <label for="">Postal /Zip Code</label>
+                    </div>
+                    <div>
+                        <select name="" id="">
+                            <option value="&nbsp;">-- select --</option>
+                            <option value="Nigeria">Nigeria</option>
+                            <option value="Ghana">Ghana</option>
+                        </select>
+                        <label for="">Country</label>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="form-group">
+                    <div>
+                        <input type="text" placeholder="08123456789" required>
+                        <label for="">Phone Number</label>
+                    </div>
+                    <div>
+                        <input type="email" placeholder="yourname@gmail.com" required>
+                        <label for="">Email</label>
+                    </div>
+                </div>
+            </div>
+
+
+            <p class="Identity">
+                C. File Upload
+                <span style="font-size: 10px; display: block;">
+                    Please upload related photographs and documents
+                </span>
+            </p>
+
+            <div>
+
+
+                <div class="file-input-wrapper">
+                    <label for="file-upload" class="file-label">Browse files</label>
+                    <input type="file" id="file-upload" class="file-input" required>
+                </div>
+                
+
+            </div>
+
+            <div class="button-wrapper">
+                <button class="submit-button">
+                    Submit
+                </button>
+            </div>
+            
+        </form>
+    </main>
+</body>
+
+</html>
