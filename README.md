@@ -24,7 +24,7 @@ The project consists of the following files:
 To view and edit the project, you will need:
 
 - A text editor (e.g., VS Code, Sublime Text)
-- A web browser (e.g., Chrome)
+- A web browser (e.g., Chrome, Mozilla Firefox)
 
 ### Installation
 
@@ -55,11 +55,11 @@ To view and edit the project, you will need:
    - To adjust the styling, modify the `styles.css` file.
 
 ## File Structure
-
-kyc-form/
+```bash
+kyc-/
 ├── index.html
 └── styles.css
-
+```
 
 - **`index.html`**: Contains the form structure, including input fields, radio buttons, and labels.
 - **`styles.css`**: Contains the styling rules, including layout, colors, and responsive design.
